@@ -1,1 +1,56 @@
-
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 216px 100vh;
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin-top: 16px;
+}
+.profile{
+    display: flex;
+}
+li{
+    list-style: none;
+    padding: 5px;
+    font-size: large;
+}
+.about{
+    font-size: x-large;
+    margin-bottom: 2px;
+}
+.bar{
+    height: 10px;
+    width: 510px;
+    background-color: lightskyblue;
+}
+.progress1{
+    height: 100%;
+    width: 95%;
+    background-color: rgb(0, 110, 255);
+}
+.progress2{
+    height: 100%;
+    width: 90%;
+    background-color: rgb(0, 110, 255);
+}
+.progress3{
+    height: 100%;
+    width: 99%;
+    background-color: rgb(0, 110, 255);
+}
+.progress4{
+    height: 100%;
+    width: 93%;
+    background-color: rgb(0, 110, 255);
+}
+.bar1{
+    height: 5px;
+    width: 100px;
+    background-color: rgb(0, 110, 255);
+}
+h1{
+    margin-bottom: 0;
+}
